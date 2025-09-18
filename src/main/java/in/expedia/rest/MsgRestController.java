@@ -12,10 +12,6 @@ public class MsgRestController {
 		return msg;
 	}
 
-	@GetMapping("/greet")
-	public String getGreetMsg(@RequestParam("name") String name) {
-		String msg = name + ", Good Morning...!!";
-		return msg;
-	}
+	
 
 }
